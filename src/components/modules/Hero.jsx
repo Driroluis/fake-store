@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const images = [
-  "../../../img/1.jpg",
-  "../../../img/2.jpg",
+  "https://i.postimg.cc/CxKcn6fB/1.jpg",
+  "https://i.postimg.cc/cJy8GvZx/2.jpg",
 ];
 
 const Hero = () => {
