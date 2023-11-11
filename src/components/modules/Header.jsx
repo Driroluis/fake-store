@@ -16,7 +16,7 @@ function Header() {
           <input
             type="text"
             placeholder="Buscar..."
-            className="max-w-md p-2 border border-gray-300 rounded-md"
+            className="max-w-md p-2 text-black border border-gray-300 rounded-md"
           />
           <button className="p-2 text-white rounded-md bg-slate-950 hover:bg-gray-700">
             🔎
