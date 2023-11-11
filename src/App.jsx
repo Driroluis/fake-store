@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Hero from "./components/modules/Hero";
 import Characters from "./components/modules/Characters";
+import Header from "./components/modules/Header";
 
 
 export function App() {
@@ -23,6 +24,7 @@ export function App() {
 
   return (
     <>
+      <Header />
       <Hero data={heroData} />
       <Characters data={data}/>
       
