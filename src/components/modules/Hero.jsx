@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const images = [
   "https://i.postimg.cc/CxKcn6fB/1.jpg",
   "https://i.postimg.cc/cJy8GvZx/2.jpg",
+  "https://i.postimg.cc/mr5cS4y9/3.jpg",
 ];
 
 const Hero = () => {
