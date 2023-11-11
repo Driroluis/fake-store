@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Hero from "./components/modules/Hero";
 import Characters from "./components/modules/Characters";
 
+
 export function App() {
   const heroData = {
     title: 'Fake Store',
@@ -9,8 +10,7 @@ export function App() {
       "https://enteratedigital.pe/wp-content/uploads/2020/10/diferencias-e-business-e-commerce.png",
   };
 
-  // const [data, setData] = useState({});
-  const [data, setData] = useState({});
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
