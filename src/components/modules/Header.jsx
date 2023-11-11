@@ -12,7 +12,17 @@ function Header() {
               className="w-24 h-24"
             />
           </div>
-          <ul className="flex space-x-4 nav-links">
+          <div className="flex items-center search-box">
+          <input
+            type="text"
+            placeholder="Buscar..."
+            className="max-w-md p-2 border border-gray-300 rounded-md"
+          />
+          <button className="p-2 text-white rounded-md bg-slate-950 hover:bg-gray-700">
+            🔎
+          </button>
+        </div>
+          <ul className="flex space-x-8 nav-links">
             <li>
               <a href="/" className="font-bold text-white hover:text-amber-900">
                 Inicio
@@ -27,9 +37,9 @@ function Header() {
               <a href="/" className="font-bold text-white hover:text-amber-900">
                 Categorias
               </a>
-            </li>
-            
+            </li>   
           </ul>
+          
         </div>
       </nav>
     </header>
