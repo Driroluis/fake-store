@@ -27,7 +27,7 @@ const Hero = () => {
           width={1920}
           height={1080}
           className={`absolute object-cover w-full h-full opacity-75 -z-10 ${
-            index === currentIndex ? "opacity-100"
+            index === currentIndex ? "opacity-100" : "opacity-0"
           }`}
         />
       ))}
